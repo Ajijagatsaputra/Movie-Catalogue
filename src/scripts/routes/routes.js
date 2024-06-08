@@ -4,7 +4,7 @@ import Detail from '../views/pages/detail';
 import Like from '../views/pages/like';
 
 const routes = {
-  '/': NowPlaying, // default page
+  '/': NowPlaying,
   '/now-playing': NowPlaying,
   '/upcoming': Upcoming,
   '/detail/:id': Detail,
